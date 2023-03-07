@@ -1,3 +1,4 @@
+//MEALNAME
 const meals = ["Breakfast Potatoes", "Canadian Butter Tarts", "Montreal Smoked Meat", "Nanaimo Bars", "Pate Chinoi","Split Pea Soup"];
 
 const mealContainer = document.querySelector("#meals");
@@ -19,7 +20,7 @@ meals.forEach(meal => {
           ingredients.push(`${ingredient}`);
         }
       }
-
+//HTML
       const mealHTML = `
         <div class="meal-container">
           <h3><b>${name}</b></h3><br>

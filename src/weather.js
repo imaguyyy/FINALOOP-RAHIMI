@@ -20,7 +20,7 @@ async function fetchWeather(city) {
         const conditions = `
           <h4>${city}</h4>
           <img src="http://openweathermap.org/img/w/${data.weather[0].icon}.png" alt="Weather Icon">
-          <p>Description: ${data.weather[0].description}</p>
+          <p>Description: ${data.weather[0].description}</p> 
           <p>Temperature: ${celsiusTemp} °C</p>
           <p>Humidity: ${data.main.humidity}%</p>
           <p>Wind Speed: ${data.wind.speed} m/s</p>
