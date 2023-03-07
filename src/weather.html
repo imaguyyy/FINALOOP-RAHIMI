@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Visit Canada</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Poppins:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&family=Oswald:wght@600;700&family=Poppins:ital,wght@1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="weather.css">
+  </head>
+    <body>
+      <header>
+  <div class="container-fluid position-relative nav-bar p-0">
+    <div class="container-lg position-relative p-0 px-lg-3" style="z-index: 9;">
+      <nav class="navbar navbar-expand-lg bg-light navbar-light shadow-lg py-3 py-lg-0 pl-3 pl-lg-5">
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
+          <div class="navbar-nav ml-auto py-0">
+            <a href="index.html" class="nav-item nav-link active">Home</a>
+            <a href="index.html" class="nav-item nav-link">Places</a>
+            <div class="dropdown">
+              <a class="nav-item nav-link active">Foods</a>
+              <div class="dropdown-content">
+                <a href="" class="nav-item nav-link active">Beaver Tails</a>
+                <a href="index.html" class="nav-item nav-link active">Breakfast Potatoes</a>
+                <a href="#index.html" class="nav-item nav-link active">Canadian Butter Tarts</a>
+                <a href="index.html" class="nav-item nav-link active">Montreal Smoked Meat</a>
+                <a href="index.html" class="nav-item nav-link active">Nanaimo Bars</a>
+                <a href="index.html" class="nav-item nav-link active">Pate Chinoi</a>
+              </div>
+            </div>
+            <a href="package.html" class="nav-item nav-link">Weather</a>
+            <a href="contact.html" class="nav-item nav-link">About</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+
+
+
+
+
+        <center><h3><b style="color: red;">Canadian</b> Weather</h3></center><br><br>
+        <p>Select a city:</p>
+        <select id="city">
+          <option value="" selected disabled>Select a city</option>
+          <option value="Toronto">Toronto</option>
+          <option value="Vancouver">Vancouver</option>
+          <option value="Montreal">Montreal</option>
+          <option value="Calgary">Calgary</option>
+          <option value="Edmonton">Edmonton</option>
+          <option value="Ottawa">Ottawa</option>
+          <option value="Quebec City">Quebec City</option>
+          <option value="Halifax">Halifax</option>
+          <option value="Regina">Regina</option>
+          <option value="Saskatoon">Saskatoon</option>
+        </select>
+        <button id="search-btn">Search</button>
+      </header>
+      <main>
+        <div id="conditions"></div>
+      </main>
+    <script src="weather.js"></script>
+  </body>
+</html>

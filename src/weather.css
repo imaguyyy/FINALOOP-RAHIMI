@@ -1,0 +1,192 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://wallpaper.dog/large/20506159.jpg');
+  }
+  
+  header {
+    background-color: #ffffffd2;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+  }
+
+h3{
+    padding-top: 80px;
+    font-size: 70px;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+  }
+
+  h4{
+    font-size: 70px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ff0000;
+  }
+
+p{
+    font-size: 20px ;
+}
+  
+  select {
+    font-size: 16px;
+    padding: 5px;
+    margin: 10px 0;
+  }
+  
+  button {
+    font-size: 16px;
+    padding: 5px 10px;
+    background-color: white;
+    border: 2px solid #000000;
+    color: #000000;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ff0000;
+    color: white;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+  }
+  
+  #conditions {
+    background-color: white;
+    border: 5px solid #0e0e0e;
+    padding: 20px;
+    text-align: center;
+  }
+
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    font-family: Poppins, sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+  
+  }
+  
+
+  .dropdown-button {
+    color: #f9f9f900;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000000a0;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: rgb(244, 244, 244);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', 'Oswald', 'Poppins', sans-serif;
+  }
+  
+  
+  nav {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  a {
+    position: relative;
+    text-decoration: none;
+    font-family: Poppins, sans-serif;
+    color: #000000;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+  }
+  
+  a:after {
+    content: "";
+    position: absolute;
+    background-color: #ff0000;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+  }
+  
+  a:hover {
+    color: #ff0000;
+  }
+  
+  a:hover:after {
+    width: 100%;
+  }
+  
+  nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+  }
+  
+  .content {
+    text-align: center;
+  }
+  
+  .content h1 {
+    font-size: 160px;
+    color: #fff;
+    font-weight: 600;
+  }
+  
+  .content a {
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    border: 2px solid #fff;
+    padding: 18px 32px;
+    border-radius: 50px;
+    margin-top: 20px;
+    background-image: linear-gradient(#ffffff);
+    font-family: Poppins;
+  
+  }
+
+  
